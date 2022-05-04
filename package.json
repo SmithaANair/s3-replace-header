@@ -1,0 +1,16 @@
+{
+  "name": "s3-object-lambda-test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "anonymizer.js",
+  "scripts": {
+    "test": "node -e \"(async () => console.log(await require('./index').handler({})))();\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.883.0",
+    "node-html-parser": "^5.3.3"
+  }
+}
